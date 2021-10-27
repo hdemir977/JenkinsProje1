@@ -13,7 +13,7 @@ import org.testng.annotations.BeforeClass;
         dryRun = false,
 
         plugin = { // basit rapor olusturan plugin
-                "html:target/cucumber-report",
+                "html:target/cucumber-report.html",
                 "json:target/cucumber.json"}
 )
 
