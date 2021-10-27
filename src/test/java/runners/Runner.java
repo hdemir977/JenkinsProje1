@@ -9,7 +9,7 @@ import io.cucumber.testng.CucumberOptions;
                 "junit:target/xml-report/cucumber1.xml"},
         features = "src\\test\\java\\features",
         glue = "stepDefinitions",
-        tags = "@Jenkins",
+        tags = "@Smoke",
         dryRun = false
 )
 

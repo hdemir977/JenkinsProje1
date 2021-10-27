@@ -1,4 +1,4 @@
-@Jenkins
+@Smoke
 Feature: login page
 
   Scenario: login
