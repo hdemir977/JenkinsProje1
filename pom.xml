@@ -63,6 +63,21 @@
         </dependency>
 
 
+        <!-- To generate extends report we need these 2 dependencies -->
+        <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+        <dependency>
+            <groupId>com.aventstack</groupId>
+            <artifactId>extentreports</artifactId>
+            <version>4.0.9</version>
+
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.vimalselvam/cucumber-extentsreport -->
+        <dependency>
+            <groupId>com.vimalselvam</groupId>
+            <artifactId>cucumber-extentsreport</artifactId>
+            <version>3.0.2</version>
+        </dependency>
 
     </dependencies>
 
@@ -84,19 +99,19 @@
             </plugin>
 
 
-<!--            <plugin>-->
-<!--                <groupId>org.apache.maven.plugins</groupId>-->
-<!--                <artifactId>maven-surefire-plugin</artifactId>-->
-<!--                <version>3.0.0-M1</version>-->
-<!--                <configuration>-->
+            <!--            <plugin>-->
+            <!--                <groupId>org.apache.maven.plugins</groupId>-->
+            <!--                <artifactId>maven-surefire-plugin</artifactId>-->
+            <!--                <version>3.0.0-M1</version>-->
+            <!--                <configuration>-->
 
-<!--                    <includes>-->
-<!--                        &lt;!&ndash;                                 for  run class or classes&ndash &ndash;&gt;-->
-<!--                        <include>**/_03_TestRunnerSmoke.java</include>-->
-<!--                    </includes>-->
-<!--                    <testFailureIgnore>true</testFailureIgnore>-->
-<!--                </configuration>-->
-<!--            </plugin>-->
+            <!--                    <includes>-->
+            <!--                        &lt;!&ndash;                                 for  run class or classes&ndash &ndash;&gt;-->
+            <!--                        <include>**/_03_TestRunnerSmoke.java</include>-->
+            <!--                    </includes>-->
+            <!--                    <testFailureIgnore>true</testFailureIgnore>-->
+            <!--                </configuration>-->
+            <!--            </plugin>-->
 
         </plugins>
 
@@ -146,10 +161,6 @@
         </profile>
 
     </profiles>
-
-
-
-
 
 
 </project>
