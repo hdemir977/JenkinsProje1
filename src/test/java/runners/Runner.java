@@ -11,12 +11,13 @@ import org.testng.annotations.BeforeClass;
         glue = "stepDefinitions",
         tags = "@Smoke",
         dryRun = false,
-        plugin = { "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" }
 
+        plugin = { // basit rapor olusturan plugin
+                "html:target/cucumber-report",
+                "json:target/cucumber.json"}
 )
 
 public class Runner extends AbstractTestNGCucumberTests {
-
 
 }
 
